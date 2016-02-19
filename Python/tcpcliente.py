@@ -1,6 +1,6 @@
 import socket
 
-target_host="216.59.21.13"
+target_host="127.0.0.1"
 target_port=31373
 data = "GET / HTTP/1.1\r\nHost: google.com\r\n\r\n"
 #create a socket object
